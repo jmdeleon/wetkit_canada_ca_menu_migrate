@@ -1,0 +1,51 @@
+<?php
+/**
+ * @file
+ * wetkit_canada_ca_menu_migrate.module
+ */
+
+/**
+ * Implements hook_migrate_api().
+ */
+function wetkit_canada_ca_menu_migrate_migrate_api() {
+  $api = array(
+    'api' => 2,
+
+    // Migrations can be organized into groups. The key used here will be the
+    // machine name of the group, which can be used in Drush:
+    // drush migrate-import --group=CanadaCAMenuMigrate
+    //
+    // The title is a required argument which is displayed for the group in the
+    // UI. You may also have additional arguments for any other data which is
+    // common to all migrations in the group.
+    'groups' => array(
+      'CanadaCAMenuMigrate' => array(
+        'title' => t('Canada.ca Menu Migrations'),
+      ),
+    ),
+
+    // Here we register the individual migrations. The keys below
+    // are the machine names of the migrations, and the class_name
+    // argument is required. The group_name is optional (defaults to 'default')
+    // but specifying it is a best practice.
+    'migrations' => array(
+      'WetKitMigrateCanadaCAMainMenu' => array(
+        'class_name' => 'WetKitMigrateCanadaCAMainMenu',
+        'group_name' => 'CanadaCAMenuMigrate',
+      ),
+      'WetKitMigrateCanadaCAMainLinks' => array(
+        'class_name' => 'WetKitMigrateCanadaCAMainLinks',
+        'group_name' => 'CanadaCAMenuMigrate',
+      ),
+      'WetKitMigrateCanadaCAFooterMenu' => array(
+        'class_name' => 'WetKitMigrateCanadaCAFooterMenu',
+        'group_name' => 'CanadaCAMenuMigrate',
+      ),
+      'WetKitMigrateCanadaCAFooterLinks' => array(
+        'class_name' => 'WetKitMigrateCanadaCAFooterLinks',
+        'group_name' => 'CanadaCAMenuMigrate',
+      ),
+    ),
+  );
+  return $api;
+}

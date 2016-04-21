@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu_handler>
+    <menu>
+        <language>
+            <section>
+                <source_id>main-menu</source_id>
+                <menu_name>main-menu</menu_name>
+                <title>Main Menu</title>
+                <description>The main menu</description>
+            </section>
+        </language>
+    </menu>
+    <menu_links>
+        <english>
+            <!-- BEGIN MAIN MENU -->
+            <section>
+                <source_id>main_menu_eng_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Jobs</link_title>
+                <link_path>http://www.esdc.gc.ca/en/jobs/index.page</link_path>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Job bank</link_title>
+                <link_path>http://www.jobbank.gc.ca/home-eng.do?lang=eng</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Find a job</link_title>
+                <link_path>http://www.esdc.gc.ca/en/jobs/opportunities/index.page</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Training</link_title>
+                <link_path>http://www.esdc.gc.ca/en/jobs/training/index.page</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Hire and manage employees</link_title>
+                <link_path>https://www.canada.ca/en/services/business/hire.html</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Starting a business</link_title>
+                <link_path>https://www.canada.ca/en/services/business/start/index.html</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Workplace standards</link_title>
+                <link_path>http://www.esdc.gc.ca/en/jobs/workplace/index.page</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Pensions and retirement</link_title>
+                <link_path>https://www.canada.ca/en/services/finance/pensions/index.html</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_1_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Employment insurance</link_title>
+                <link_path>http://www.esdc.gc.ca/en/jobs/ei/index.page</link_path>
+                <parent>main_menu_eng_1</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Immigration</link_title>
+                <link_path>http://www.cic.gc.ca/english/index.asp</link_path>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>My application</link_title>
+                <link_path>http://www.cic.gc.ca/english/e-services/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Immigrate</link_title>
+                <link_path>http://www.cic.gc.ca/english/immigrate/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Visit</link_title>
+                <link_path>http://www.cic.gc.ca/english/visit/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Work</link_title>
+                <link_path>http://www.cic.gc.ca/english/work/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Study</link_title>
+                <link_path>http://www.cic.gc.ca/english/study/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Citizenship</link_title>
+                <link_path>http://www.cic.gc.ca/english/citizenship/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>New immigrants</link_title>
+                <link_path>http://www.cic.gc.ca/english/residents/new_immigrants.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Canadians</link_title>
+                <link_path>http://www.cic.gc.ca/english/residents/canadians.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_9</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Refugees and asylum</link_title>
+                <link_path>http://www.cic.gc.ca/english/refugees/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>9</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_2_10</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Enforcement and violations</link_title>
+                <link_path>http://www.cic.gc.ca/english/enforcement/index.asp</link_path>
+                <parent>main_menu_eng_2</parent>
+                <weight>10</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Travel</link_title>
+                <link_path>//travel.gc.ca/</link_path>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Travel advice and advisories</link_title>
+                <link_path>http://travel.gc.ca/travelling/advisories</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Canadian attractions, events and experiences</link_title>
+                <link_path>http://travel.gc.ca/canadian-tourism</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Canadian passports</link_title>
+                <link_path>http://travel.gc.ca/travelling/documents/passport</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Traveling abroad</link_title>
+                <link_path>http://travel.gc.ca/travelling</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Air travel</link_title>
+                <link_path>http://travel.gc.ca/air</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Returning to Canada</link_title>
+                <link_path>http://travel.gc.ca/returning</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Assistance abroad</link_title>
+                <link_path>http://travel.gc.ca/assistance</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_3_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Stay connected</link_title>
+                <link_path>http://travel.gc.ca/stay-connected</link_path>
+                <parent>main_menu_eng_3</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Business</link_title>
+                <link_path>https://www.canada.ca/en/services/business.html</link_path>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Starting a business</link_title>
+                <link_path>https://www.canada.ca/en/services/business/start.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Grants and financing</link_title>
+                <link_path>https://www.canada.ca/en/services/business/grants.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Business taxes</link_title>
+                <link_path>https://www.canada.ca/en/services/taxes/businesses.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Sell to government</link_title>
+                <link_path>https://www.canada.ca/en/services/business/sell.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>International trade and investment</link_title>
+                <link_path>https://www.canada.ca/en/services/business/trade.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Research and development (R &amp; D) and innovation</link_title>
+                <link_path>https://www.canada.ca/en/services/science/innovation.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Intellectual property and copyright</link_title>
+                <link_path>https://www.canada.ca/en/services/business/ip.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Permits, licenses and regulations</link_title>
+                <link_path>https://www.canada.ca/en/services/business/permits.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_9</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Research and business intelligence</link_title>
+                <link_path>https://www.canada.ca/en/services/business/research.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>9</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_10</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Hiring and managing employees</link_title>
+                <link_path>https://www.canada.ca/en/services/business/hire.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>10</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_11</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Maintain, grow, and improve your business</link_title>
+                <link_path>https://www.canada.ca/en/services/business/maintaingrowimprovebusiness.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>11</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_12</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Protect your business</link_title>
+                <link_path>https://www.canada.ca/en/services/business/protecting.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>12</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_4_13</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Bankruptcy for business</link_title>
+                <link_path>https://www.canada.ca/en/services/business/bankruptcy.html</link_path>
+                <parent>main_menu_eng_4</parent>
+                <weight>13</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Benefits</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits.html</link_path>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Employment insurance</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits/ei.html</link_path>
+                <parent>main_menu_eng_5</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Family benefits</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits/family.html</link_path>
+                <parent>main_menu_eng_5</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Public pensions</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits/publicpensions.html</link_path>
+                <parent>main_menu_eng_5</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Education and training</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits/education.html</link_path>
+                <parent>main_menu_eng_5</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Housing benefits</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits/housing.html</link_path>
+                <parent>main_menu_eng_5</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_5_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Disability benefits</link_title>
+                <link_path>https://www.canada.ca/en/services/benefits/disability.html</link_path>
+                <parent>main_menu_eng_5</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Health</link_title>
+                <link_path>http://healthycanadians.gc.ca/index-eng.php</link_path>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Health risks and safety</link_title>
+                <link_path>http://healthycanadians.gc.ca/security-securite/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Food and nutrition</link_title>
+                <link_path>http://healthycanadians.gc.ca/eating-nutrition/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Drugs and health products</link_title>
+                <link_path>http://healthycanadians.gc.ca/drugs-products-medicaments-produits/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Product safety</link_title>
+                <link_path>http://healthycanadians.gc.ca/product-safety-securite-produits/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Diseases and conditions</link_title>
+                <link_path>http://healthycanadians.gc.ca/diseases-conditions-maladies-affections/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Healthy living</link_title>
+                <link_path>http://healthycanadians.gc.ca/healthy-living-vie-saine/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Aboriginal health</link_title>
+                <link_path>http://healthycanadians.gc.ca/aboriginal-autochtones/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Health system and services</link_title>
+                <link_path>http://healthycanadians.gc.ca/health-system-systeme-sante/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_6_9</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Science, research and data</link_title>
+                <link_path>http://healthycanadians.gc.ca/science-research-sciences-recherches/index-eng.php</link_path>
+                <parent>main_menu_eng_6</parent>
+                <weight>9</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Taxes</link_title>
+                <link_path>https://www.canada.ca/en/services/taxes.html</link_path>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_7_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Individuals and families</link_title>
+                <link_path>https://www.canada.ca/en/services/taxes/individuals.html</link_path>
+                <parent>main_menu_eng_7</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_7_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Businesses</link_title>
+                <link_path>https://www.canada.ca/en/services/taxes/businesses.html</link_path>
+                <parent>main_menu_eng_7</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_7_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Representatives and tax professionals</link_title>
+                <link_path>https://www.canada.ca/en/services/taxes/representatives.html</link_path>
+                <parent>main_menu_eng_7</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_7_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Charities and giving</link_title>
+                <link_path>https://www.canada.ca/en/services/taxes/charities.html</link_path>
+                <parent>main_menu_eng_7</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>More services</link_title>
+                <link_path>https://www.canada.ca/en/services.html</link_path>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Environment and natural resources</link_title>
+                <link_path>https://www.canada.ca/en/services/environment.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>National security and defence</link_title>
+                <link_path>https://www.canada.ca/en/services/defence.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Culture, history and sport</link_title>
+                <link_path>https://www.canada.ca/en/services/culture.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Policing, justice and emergencies</link_title>
+                <link_path>https://www.canada.ca/en/services/policing.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Transport and infrastructure</link_title>
+                <link_path>https://www.canada.ca/en/services/transport.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Canada and the world</link_title>
+                <link_path>http://international.gc.ca/world-monde/index.aspx?lang=eng</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Money and finances</link_title>
+                <link_path>https://www.canada.ca/en/services/finance.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_eng_8_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Science and innovation</link_title>
+                <link_path>https://www.canada.ca/en/services/science.html</link_path>
+                <parent>main_menu_eng_8</parent>
+                <weight>8</weight>
+            </section>
+            <!-- END MAIN MENU -->
+        </english>
+        <french>
+            <!-- BEGIN MAIN MENU -->
+            <section>
+                <source_id>main_menu_fra_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Emplois</link_title>
+                <link_path>http://www.edsc.gc.ca/fr/emplois/index.page</link_path>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Guichet-emplois</link_title>
+                <link_path>http://www.guichetemplois.gc.ca/accueil-fra.do?lang=fra</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Trouver un emploi</link_title>
+                <link_path>http://www.edsc.gc.ca/fr/emplois/opportunites/index.page</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Formation</link_title>
+                <link_path>http://www.edsc.gc.ca/fr/emplois/formation/index.page</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Engager et gérer des employés</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/engager/index.html</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Lancer une entreprise</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/lancer/index.html</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Normes en milieu de travail</link_title>
+                <link_path>http://www.edsc.gc.ca/fr/emplois/milieu_travail/index.page</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Pensions et retraite</link_title>
+                <link_path>https://www.canada.ca/fr/services/finance/pensions/index.html</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_1_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Assurance-emploi</link_title>
+                <link_path>http://www.edsc.gc.ca/fr/emplois/assurance_emploi/index.page</link_path>
+                <parent>main_menu_fra_1</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Immigration</link_title>
+                <link_path>http://www.cic.gc.ca/francais/index.asp</link_path>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Ma demande</link_title>
+                <link_path>http://www.cic.gc.ca/francais/services-e/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Immigrer</link_title>
+                <link_path>http://www.cic.gc.ca/francais/immigrer/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Visiter</link_title>
+                <link_path>http://www.cic.gc.ca/francais/visiter/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Travailler</link_title>
+                <link_path>http://www.cic.gc.ca/francais/travailler/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Étudier</link_title>
+                <link_path>http://www.cic.gc.ca/francais/etudier/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Citoyenneté</link_title>
+                <link_path>http://www.cic.gc.ca/francais/citoyennete/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Nouveaux immgrants</link_title>
+                <link_path>http://www.cic.gc.ca/francais/residents/nouveaux_immigrants.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Canadiens</link_title>
+                <link_path>http://www.cic.gc.ca/francais/residents/canadiens.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_9</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Réfugiés et demandes d'asile</link_title>
+                <link_path>http://www.cic.gc.ca/francais/refugies/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>9</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_2_10</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Application de la loi et violations</link_title>
+                <link_path>http://www.cic.gc.ca/francais/application-loi/index.asp</link_path>
+                <parent>main_menu_fra_2</parent>
+                <weight>10</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Voyage</link_title>
+                <link_path>//voyage.gc.ca/</link_path>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Conseils aux voyageurs et avertissements</link_title>
+                <link_path>http://voyage.gc.ca/voyager/avertissements</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Attraits touristiques, événements et expériences au Canada</link_title>
+                <link_path>http://voyage.gc.ca/tourisme-canadien</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Passeports canadiens</link_title>
+                <link_path>http://voyage.gc.ca/voyager/documents/passeport</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Voyager à l'étranger</link_title>
+                <link_path>http://voyage.gc.ca/voyager</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Voyager en avion</link_title>
+                <link_path>http://voyage.gc.ca/avion</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Retour au Canada</link_title>
+                <link_path>http://voyage.gc.ca/retour</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Assistance à l'étranger</link_title>
+                <link_path>http://voyage.gc.ca/assistance</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_3_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Restez branchés</link_title>
+                <link_path>http://voyage.gc.ca/restez-branches</link_path>
+                <parent>main_menu_fra_3</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Entreprises</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises.html</link_path>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Lancer une entreprise</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/lancer.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Subventions et financement</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/subventions.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Taxes et impôt des entreprises</link_title>
+                <link_path>https://www.canada.ca/fr/services/impots/entreprises.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Vendre au gouvernement</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/vendre.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Commerce international et investissement</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/commerce.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Recherche-développement (R-D) et innovation</link_title>
+                <link_path>https://www.canada.ca/fr/services/science/innovation.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Propriété intellectuelle et droit d’auteur</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/pi.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Permis, licences et réglementation</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/permis.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_9</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Recherche et renseignements d'affaires</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/recherche.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>9</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_10</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Engager et gérer des employés</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/engager.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>10</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_11</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Maintenir, faire croître et améliorer votre entreprise</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/maintenirfairecroitreameliorerentreprise.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>11</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_12</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Protéger votre entreprise</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/proteger.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>12</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_4_13</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Faillite pour les entreprises</link_title>
+                <link_path>https://www.canada.ca/fr/services/entreprises/faillites.html</link_path>
+                <parent>main_menu_fra_4</parent>
+                <weight>13</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Prestations</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations.html</link_path>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Assurance-emploi</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations/ae.html</link_path>
+                <parent>main_menu_fra_5</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Prestations pour les familles</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations/famille.html</link_path>
+                <parent>main_menu_fra_5</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Pensions publiques</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations/pensionspubliques.html</link_path>
+                <parent>main_menu_fra_5</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Études et formation</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations/etudes.html</link_path>
+                <parent>main_menu_fra_5</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Prestations relatives au logement</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations/logement.html</link_path>
+                <parent>main_menu_fra_5</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_5_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Prestations relatives aux personnes handicapées</link_title>
+                <link_path>https://www.canada.ca/fr/services/prestations/handicap.html</link_path>
+                <parent>main_menu_fra_5</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Santé</link_title>
+                <link_path>http://canadiensensante.gc.ca/index-fra.php</link_path>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Sécurité et risque pour la santé</link_title>
+                <link_path>http://canadiensensante.gc.ca/security-securite/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Aliments et nutrition</link_title>
+                <link_path>http://canadiensensante.gc.ca/eating-nutrition/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Médicaments en produits de santé</link_title>
+                <link_path>http://canadiensensante.gc.ca/drugs-products-medicaments-produits/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Sécurité des produits</link_title>
+                <link_path>http://canadiensensante.gc.ca/product-safety-securite-produits/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Maladies et affections</link_title>
+                <link_path>http://canadiensensante.gc.ca/diseases-conditions-maladies-affections/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Vie saine</link_title>
+                <link_path>http://canadiensensante.gc.ca/healthy-living-vie-saine/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Santé des autochtones</link_title>
+                <link_path>http://canadiensensante.gc.ca/aboriginal-autochtones/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Système et service de santé</link_title>
+                <link_path>http://canadiensensante.gc.ca/health-system-systeme-sante/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_6_9</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Science, recherche, et données</link_title>
+                <link_path>http://canadiensensante.gc.ca/science-research-sciences-recherches/index-fra.php</link_path>
+                <parent>main_menu_fra_6</parent>
+                <weight>9</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Impôts</link_title>
+                <link_path>http://www.canada.ca/fr/services/impots/index.html</link_path>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_7_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Particuliers et familles</link_title>
+                <link_path>http://www.canada.ca/fr/services/impots/particuliers/index.html</link_path>
+                <parent>main_menu_fra_7</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_7_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Entreprises</link_title>
+                <link_path>http://www.canada.ca/fr/services/impots/entreprises/index.html</link_path>
+                <parent>main_menu_fra_7</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_7_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Représentants et professionnels de l'impôt</link_title>
+                <link_path>https://www.canada.ca/fr/services/impots/representants/index.html</link_path>
+                <parent>main_menu_fra_7</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_7_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Organismes de bienfaisance et dons</link_title>
+                <link_path>https://www.canada.ca/fr/services/impots/bienfaisance.html</link_path>
+                <parent>main_menu_fra_7</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Autres services</link_title>
+                <link_path>https://www.canada.ca/fr/services.html</link_path>
+                <weight>8</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_1</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Environnement et ressources naturelles</link_title>
+                <link_path>https://www.canada.ca/fr/services/environnement.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>1</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_2</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Sécurité nationale et défense</link_title>
+                <link_path>https://www.canada.ca/fr/services/defense.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>2</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_3</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Culture, histoire et sport</link_title>
+                <link_path>https://www.canada.ca/fr/services/culture.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>3</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_4</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Services de police, justice et urgences</link_title>
+                <link_path>https://www.canada.ca/fr/services/police.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>4</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_5</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Transport et infrastructure</link_title>
+                <link_path>https://www.canada.ca/fr/services/transport.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>5</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_6</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Canada et le monde</link_title>
+                <link_path>http://international.gc.ca/world-monde/index.aspx?lang=fra</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>6</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_7</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Argent et finances</link_title>
+                <link_path>https://www.canada.ca/fr/services/finance/index.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>7</weight>
+            </section>
+            <section>
+                <source_id>main_menu_fra_8_8</source_id>
+                <menu_name>main-menu</menu_name>
+                <link_title>Science et innovation</link_title>
+                <link_path>https://www.canada.ca/fr/services/science.html</link_path>
+                <parent>main_menu_fra_8</parent>
+                <weight>8</weight>
+            </section>
+            <!-- END MAIN MENU -->
+        </french>
+    </menu_links>
+</menu_handler>
